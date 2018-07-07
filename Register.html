@@ -3,22 +3,35 @@
 <head>
 	<title>Register</title>
 </head>
-	<body>
+<body>
 		<H2> This is not a form. This will not sign you up for anything. Pressing the register button definately will not get you abducted by the illuminati.</H2>
-		<form>
-			First Name:<input type="text"><br>
-			Last Name: <input type="text"><br>
-			Email: <input type="email" required><br>
-			Birthday: <input type="date" required><br>
+		<!-- Ctrl+shift/ for instant comment! -->
+		<span></span>
+		<!-- Span is added to each line for CSS -->
+		<div>
+		<!-- Div is wrapped around the whole form -->
+		<form method="get">
+			First Name:<input type="text" name="firstname"><br>
+			Last Name: <input type="text"name="lastname"><br>
+			Email: <input type="email" name="email"required><br>
+			Password: <input type="password" name="password" minlength="5"><br>
+			Birthday: <input type="date" name="birthday" required><br>
 			Gender: <br>
-			<input type="radio" name="gender">Male<br>
-			<input type="radio" name="gender">Female<br>
-			<input type="radio" name="gender">Other<br>
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			<input type="radio" name="gender" value="Other">Other<br>
 			Pets<br>
-			<input type="Checkbox"> Cat<br>
-			<input type="Checkbox"> Dog<br>
+			<input type="Checkbox"name="cat"> Cat<br>
+			<input type="Checkbox"name="dog"> Dog<br>
+			Cars:<br>
+			<select name="cars">
+				<option value="volvo"name="Volvo">Volvo</option>
+				<option value="Audi"name="Audi"> Audi </option>
+			</select><br>
 			<input type="submit"value="Register">
 			<input type="reset">
 		</form>
-	</body>
+	</div>
+</body>
 </html>
+
