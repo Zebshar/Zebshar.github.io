@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+ 	<head>
+		<title>My First Website!</title>
+	</head>
+	<body>
+	<header>
+		<nav>
+			<a href="Login.html">
+				<button>Log in</button>
+			</a>
+			<a href="Challenge site.html">
+				<button>To the challenge</button>
+			</a>
+			<a href="Register.html">
+				<button>Register now!</button>
+			</a>
+			<a href="blank.html">
+				<button>Ideas</button>
+			</a>
+		</nav>
+	</header>		
+			 <p>Things inside < and > are called tags. Elements are the whole product of the tag and what's between it! There are different types of tags, there are nested tags; which are hidden behind parent tags. Sublime lets you hide everything inside a parent tag by selecting it. </p>
+		
+		<h1> These are header tags. This is H1.</h1>
+		<h2> This is H2</h2>
+		<h3> This is H3</h3>
+		<h4> This is H4</h4>
+		<h5> This is H5</h5>
+		<h6> This is the smallest at H6</h6>
+	
+			<p>if I were to just type, it would look like this, it's kinda annoying and while it looks fine on the webpage, on my end this would get crazy hard to decode quickly. its just a long string of words! While the code on my end is very simple, I could see how if I had a ton of this going on, it would make it harder to select certain things and make them certain colors. It's definately easier to read if you set them all in paragraphs and the like! You also can't hide this inside sublime because it doesn't read as any tag at all!</p>
+		<h2>Paragraph Brackets</h2>
+			<p> These indents use paragraph tags</p> 
+			<p> if you have multiple paragraphs it will display as such
+			<p> Like so.</p>
+			<p> if you put the word Lorem in brackets, you'll get a decent length paragraph like this! They're used to test basic things and make sure all your paragraphs look right.</p>
+			<Lorem> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </Lorem></p>
+		<h2> Different brackets do different things!</h3>
+			<p> there are some that are very simple but out of date, such as <b>B </b> in brackets to make something bolder, or <I>I</I> in brackets to make something italicized! These unfortunately don't work on all phones, so we don't use them any more, they're nice to know about though. </p>
+			<p> Now instead of bolding with B, we instead use the word <strong>STRONG</strong>! It's much more powerful sounding, but thats not why we use it! We also use <em> em </em> for emphasis! We use these because some of our users who use screen readers, such as those with eye issues. The reason that we switched tags is because of semantics. It's part of the reason HTML 5 exists!</p>
+		<h2> More tags!</h2>
+			<p> To use an Ordered List tag you simply put <strong>OL</strong> in brackets. You also use <strong>li</strong> for each item as that will keep things in order.
+				<ol>
+
+					<li>banana</li>
+					<li>apples</li>
+					<li>oranges</li>
+				</ol>
+			<p>
+			<p> If you want to make an Unordered List you would instead use the tag <strong>UL</strong> that makes bullet points instead.
+				<ul>
+					<li>They</li>
+					<li>look</li>
+					<li>like</li>
+					<li>this!</li>
+				</ul>
+			</p>
+		<H2>Nested lists!</H2>
+			<p> Nested Lists are basically just sublists. they work so you can hide whole scetions of things and make things looks better. They look like this!
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li>
+						<li>Fuji</li>
+						<li>Granny Smith</li>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol>
+			</p>
+		<H2> Self Closing Tags!</H2>
+			<p>There are elements that don't require you to close the tags! There are <strong>BR</strong> and <strong>HR</strong> They but different types of breaks in your lists.
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li><br>
+						<li>Fuji</li><hr>
+						<li>Granny Smith</li>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol>
+			The <strong>BR</strong> is the line break while the <strong>HR</strong> is the horizontal line.
+			</p>
+			<p> Next we'll move onto images! Images are another type of self closing tag, and probably one you'll use tons of times throughout your career! Let's use the example of apples from our list earlier.
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li>
+						<li>Fuji</li>
+						<li>Granny Smith</li>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol></p>
+			<p>It would be lovely if we could get a picture of each of the apples for our secondary list, wouldn't it? Well luckily we can! All we have to do is use an image tag!</p>
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li>
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Honeycrisp-Apple.jpg/1200px-Honeycrisp-Apple.jpg">
+						<li>Fuji</li>
+						<li>Granny Smith</li>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol>
+			<p>Oh dear! That's much to large! Luckily we can resize the image to a much better size, and it's fairly simple! we just need to give it some attributes! We've actually already used one to define the source of our Honey Crisp picture; but now we need to define its Height and Width. Let's try using 45 for both!
+			</p>
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li>
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Honeycrisp-Apple.jpg/1200px-Honeycrisp-Apple.jpg"Height=45 Width= 45>
+						<li>Fuji</li>
+						<li>Granny Smith</li>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol>
+				<p>Awesome! That's Much better! I'm gonna go ahead and add pictures for the other apples now too just to get the excersize.</p>
+				<ol>
+					<li>apples</li>
+					<ul>
+						<li>Honey crisp</li>
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Honeycrisp-Apple.jpg/1200px-Honeycrisp-Apple.jpg" height=45 width=45>
+						<li>Fuji</li>
+							<img src="https://s2uqdnlqz93lrjbq205ld0eu-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/fuji-single-nosticker.png" Height=45 Width=45>
+						<li>Granny Smith</li>
+							<img src="https://s2uqdnlqz93lrjbq205ld0eu-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/GrannySmith-single-nosticker.png" height=45 width=45>
+					</ul>
+					<li>bananas</li>
+					<li>oranges</li>
+				</ol>
+		<H2>Anchor tags!</H2>
+			<p>Lets do a fun thing again!</p>
+				<a href="The Second Page.html">Click me!</a>
+			<p> That was fun! I just made an anchor tag! That's essentially how you create a link to another page! I could link you to potentially anything now! It's actually super simple; You start out with the anchor tag which is just <strong>A</strong>, define it with a <strong>href</strong> attribute, which is the next page you get sent to if you click it, then close that tag!Don't forget to put something between them, as this isn't a self closing tag, so you'll end up wondering where your link went! Hrm... I wonder...</p>
+				<a href="https://www.youtube.com/watch?v=1qN72LEQnaU">Will this work?</a>
+
+		<H2> Why save the first document as Index?</H2>
+			<p> basically because it's the homepage. You can go into the server and have it direct somewhere else but for the most part they're set up to function to index.html first.</p>
+
+		<h2>Relative and Absolute paths!</h2>
+			<p>A relative path is something that uses the file protocal directly through your computer, where an absolute path is something elsewhere on the internet, so no matter where you link to it from, it will direct to it all the time.</p>
+		<a href="Register.html"> <h2>Advanced tags and HTML forms</h2>
+			</a>
+</body> 
+
+</html>

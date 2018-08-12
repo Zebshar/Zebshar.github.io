@@ -1,0 +1,31 @@
+body { 
+    background-image: url(https://hdqwalls.com/download/galaxy-space-stars-universe-nebula-4k-qw-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    display: flex;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+}
+.Gobutton{
+    position: absolute;
+    top:355px;
+}
+.btn-primary{
+    background-color:rgb(70, 3, 97);
+}
+.btn-primary:hover{
+    background-color: black;
+}
